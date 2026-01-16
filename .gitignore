@@ -1,12 +1,4 @@
 # This file is used to ignore files which are difficult to diffuse in text form
-# Comment example to be included in the body of the file:
-# *.jpg
-# *.png
-# *.gif
-# *.z3d
-# *.unityproj
-# *.unitypackage
-# *.unityasset
 
 # ==============================
 # Unity generated
@@ -30,7 +22,6 @@
 /*.sln
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
@@ -42,7 +33,6 @@
 *.swp
 *.swo
 *~
-.DS_Store
 
 # ==============================
 # OS Generated
@@ -56,28 +46,11 @@ ehthumbs.db
 Thumbs.db
 
 # ==============================
-# Asset meta files
+# Do NOT ignore these Unity files
 # ==============================
-*.fbx.meta
-*.prefab.meta
-*.unity.meta
-*.asset.meta
-*.png.meta
-*.jpg.meta
-*.wav.meta
-*.mp3.meta
-
-# ==============================
-# IDE specific
-# ==============================
-.idea/
-.gradle/
-.classpath
-.project
-.settings/
-*.iml
-*.iws
-*.ipr
-conftest.py
-pytest.ini
-setup.cfg
+# Keep all Assets and project files
+!.gitkeep
+!Assets/
+!Assets/**/*
+!ProjectSettings/
+!Packages/
