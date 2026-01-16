@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene1_TaskInput.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/WorkChecklistScene.unity
+    guid: d5fd5dd9bfaa27446ba0d139b148f6f7
+  - enabled: 1
+    path: Assets/Scenes/StudiesChecklistScene.unity
+    guid: b5fa713a106ef784eb3610a56815bcce
+  - enabled: 1
+    path: Assets/Scenes/BucketListChecklistScene.unity
+    guid: 3bb438ad48b456145b9091d37c385abe
+  - enabled: 1
+    path: Assets/Scenes/ChoresChecklistScene.unity
+    guid: 5bd5210dd36be9848913bbb170ad967c
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

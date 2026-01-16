@@ -1,0 +1,28 @@
+# Unity generated
+/Library/
+/Temp/
+/Builds/
+/Build/
+*.csproj
+*.sln
+*.unitypackage
+
+# Visual Studio cache directory
+.vs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+Logs/
+
+# Local user-specific files
+UserSettings/
