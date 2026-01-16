@@ -1,28 +1,83 @@
+# This file is used to ignore files which are difficult to diffuse in text form
+# Comment example to be included in the body of the file:
+# *.jpg
+# *.png
+# *.gif
+# *.z3d
+# *.unityproj
+# *.unitypackage
+# *.unityasset
+
+# ==============================
 # Unity generated
-/Library/
-/Temp/
-/Builds/
-/Build/
-*.csproj
-*.sln
-*.unitypackage
+# ==============================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
-# Visual Studio cache directory
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# ==============================
+# Visual Studio / MonoDevelop / Rider
+# ==============================
 .vs/
-
-# IDE
 .vscode/
+/*.sln
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+.reSharper/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS generated files
 .DS_Store
+
+# ==============================
+# OS Generated
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Logs
-Logs/
+# ==============================
+# Asset meta files
+# ==============================
+*.fbx.meta
+*.prefab.meta
+*.unity.meta
+*.asset.meta
+*.png.meta
+*.jpg.meta
+*.wav.meta
+*.mp3.meta
 
-# Local user-specific files
-UserSettings/
+# ==============================
+# IDE specific
+# ==============================
+.idea/
+.gradle/
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+conftest.py
+pytest.ini
+setup.cfg
